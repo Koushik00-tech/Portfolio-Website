@@ -1,0 +1,216 @@
+/* -------------------------Laptop View---------------------- */
+@media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    .about-containers {
+      flex-wrap: wrap;
+    }
+    #contact,
+    #projects {
+      height: fit-content;
+
+    }
+  }
+
+  @media (max-width: 600px) {
+    #projects {
+        margin-top: 0px; /* Adjust the value as needed for mobile view */
+    }
+}
+
+  @media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;
+    }
+    #experience,
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+      display: block;
+    }
+    .arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section__pic-container {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+    }
+    .about-containers {
+      margin-top: 0;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: 40vh;
+    }
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+    article {
+      font-size: 1rem;
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .experience-sub-title {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .section__pic-container {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+    }
+    .section__text__p2 {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .text-container {
+      text-align: justify;
+    }
+  }
+
+/* -----------------------------------Tech Stack Responsive-------------------- */
+.technologies, .tools {
+    display: grid;
+    gap: 20px; 
+}
+
+.technologies img, .tools img {
+    width: 150px;
+    height: 150px;
+}
+
+/* Large screens (desktops, laptops) */
+@media (min-width: 1024px) {
+    .technologies, .tools {
+        grid-template-columns: repeat(4, 1fr); 
+    }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 600px) and (max-width: 1023px) {
+    .technologies, .tools {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+/* Small screens (mobiles) */
+@media (max-width: 599px) {
+    .technologies, .tools {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+/* --------------------------------------Section Container--------------------- */
+@media (max-width: 600px) {
+  .section-container {
+      padding: 15px;
+  }
+
+  .about-para {
+      font-size: 14px;
+  }
+}
+
+@media (min-width: 601px) {
+  .section-container {
+      padding: 30px;
+  }
+
+  .about-para {
+      font-size: 16px;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .details-container {
+    width: 90vw; 
+    max-width: 100%; 
+  }
+}
+/* -----------------------------------------------Media Queries for Deatils-Container---------------------- */
+/* Media queries for further responsiveness */
+@media (max-width: 768px) {
+  .weatherapp {
+    font-size: 4vw;
+  }
+  .weatherapp-des, .btn, .weather-app-tech-stack {
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .details-container {
+    width: 95vw;
+  }
+  .weatherapp {
+    font-size: 5vw;
+  }
+  .weatherapp-des, .btn, .weather-app-tech-stack {
+    font-size: 4vw;
+  }
+}
+
+@media (min-width: 768px) {
+  #codingSection {
+    margin-top: 800px;
+  }
+}
+
+/* One image on each row in small devices */
+@media (max-width : 768px){
+  .coding{
+    flex-direction: column;
+    margin: 30px;
+  }
+  .code{
+    width: 100%;
+    margin: 10px 0;
+  }
+  .code-img{
+    width: 100%;
+    height: auto;
+  }
+}
