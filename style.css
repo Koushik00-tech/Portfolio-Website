@@ -132,7 +132,7 @@ a:hover {
 }
 
 .hamburger-icon.open span:last-child {
-  transform: rotate(-45deg) translate(10px, -5px);
+  transform: rotate(-45deg) translate(10px,s -5px);
 }
 
 .hamburger-icon span:first-child {
@@ -151,7 +151,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  /* height: 96vh; */
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -219,7 +219,7 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
-  float: left;
+  float: right;
 }
 
 /* BUTTONS */
@@ -304,7 +304,7 @@ section {
   max-width: 1200px;
   height: 100px;
   margin: 20px auto;
-  padding: 20px;
+  padding: 40px;
   background-color: whitesmoke;
   color: black;
   border-radius: 10px;
@@ -465,7 +465,7 @@ article .icon {
 /* -------------------------SKILLS Section--------------------- */
 #techStack {
   margin-top: 100px;
-  margin-bottom: 400px;
+  /* margin-bottom: 400px; */
   text-align: center;
 }
 
@@ -539,7 +539,7 @@ article .icon {
 }
 
 .email-icon {
-  height: 3rem;
+  height: 2rem;
 }
 
 /* FOOTER SECTION */

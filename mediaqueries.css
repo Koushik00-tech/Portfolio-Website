@@ -27,6 +27,19 @@
     #hamburger-nav {
       display: flex;
     }
+    .menu-links{
+      border: 5px; 
+      
+    }
+   
+    .mobile-menu{
+      border: 5px;
+      padding: 5px;
+      border: 2px solid;
+      border-color: grey;
+      width: 67vw;
+      height: 64px;
+    }
     #experience,
     .experience-details-container {
       margin-top: 2rem;
@@ -61,7 +74,7 @@
       height: 40vh;
     }
     #profile {
-      height: 83vh;
+      height: auto;
       margin-bottom: 0;
     }
     article {
@@ -112,7 +125,7 @@
 
 /* -----------------------------------Tech Stack Responsive-------------------- */
 .technologies, .tools {
-    display: grid;
+    display: flow;
     gap: 20px; 
 }
 
@@ -193,11 +206,11 @@
   }
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   #codingSection {
     margin-top: 800px;
   }
-}
+} */
 
 /* One image on each row in small devices */
 @media (max-width : 768px){

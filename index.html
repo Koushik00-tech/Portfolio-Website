@@ -35,12 +35,12 @@
           <span></span>
           <span></span>
         </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
+        <ul class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()" class="mobile-menu">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()" class="mobile-menu">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()" class="mobile-menu">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()" class="mobile-menu">Contact</a></li>
+        </ul>
       </div>
     </nav>
     
@@ -52,16 +52,16 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Koushik Koppolu </h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <p class="section__text__p2">Full Stack Developer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
             onclick="window.open('Assets/resume.pdf')"
           >
-            Download CV
+            Download Resume
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
+            Contact 
           </button>
         </div>
         <div id="socials-container">
@@ -86,10 +86,8 @@
       <h1 class="title">About Me</h1>
       <div class="section-container">
         <p class="about-para">
-          <i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello! I'm Koushik, a passionate Full Stack Developer with a knack for crafting seamless digital experiences. With a strong foundation in HTML, CSS, and JavaScript, coupled with expertise in the MERN (MongoDB, Express.js, React.js, Node.js) stack and AWS, I thrive on turning ideas into robust web applications.
-            Throughout my career, I've spearheaded various projects, ranging from dynamic ToDo lists to complex e-commerce platforms and sophisticated banking websites. Each project has been an opportunity to blend creativity with technical prowess, ensuring intuitive user interfaces and efficient backend functionality.
-            I believe in continuous learning and staying abreast of the latest technologies and best practices in the ever-evolving landscape of web development. This drive for growth enables me to deliver solutions that not only meet but exceed client expectations.
-            Outside of coding, I'm an avid problem solver who enjoys tackling challenges head-on and collaborating with teams to achieve collective goals. If you're looking for a dedicated Full Stack Developer who can bring your ideas to life and elevate your digital presence, let's connect!</i>
+          <i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello! I'm Koushik, a passionate Developer with a knack for crafting seamless digital experiences. With a strong foundation in HTML, CSS, and JavaScript, coupled with expertise in the <b>MERN</b> (MongoDB, Express.js, React.js, Node.js) stack and AWS, I thrive on turning ideas into robust web applications.
+            If you're looking for a dedicated <b>Full Stack Developer</b> who can bring your ideas to life and elevate your digital presence, let's connect!</i>
         </p>
       </div>
       <img
@@ -137,7 +135,7 @@
                 Live 
               </button>
             </div>
-            <h4 class="weather-app-tech-stack"> <b>Tech Stack:</b> HTML,CSS, JS, ReactJS</h4>
+            <h4 class="weather-app-tech-stack"> <b>Tech Stack:</b> HTML, CSS, JS, ReactJS</h4>
           </div>
           <!-- ----------------------------Banking APP--------------------------------------------->
           <div class="details-container color-container">
@@ -169,7 +167,7 @@
                 Live 
               </button>
             </div>
-            <h4 class="weather-app-tech-stack"><b>Tech Stack:</b> HTML,CSS, Bootstrap, JS</h4>
+            <h4 class="weather-app-tech-stack"><b>Tech Stack:</b> HTML, CSS, Bootstrap, JS</h4>
           </div>
         </div>
       </div>
@@ -208,6 +206,9 @@
         <img class="techstack" src="Assets/Tools/Linux.png" alt="linux">
         <img class="techstack" src="Assets/Tools/MySQL.png" alt="mysql">
         <img class="techstack" src="Assets/Tools/AWS.png" alt="aws">
+        <img class="techstack" src="Assets/Tools/Figma.png" alt="figma">
+        <img class="techstack" src="Assets/Tools/Canva.png" alt="canva">
+
       </div>
       <img
         src="./assets/arrow.png"
@@ -254,7 +255,7 @@
                 Live 
               </button>
             </div>
-            <h4 class="weather-app-tech-stack">Tech Stack: HTML,CSS, Bootstrap, JS</h4>
+            <h4 class="weather-app-tech-stack">Tech Stack: HTML, CSS, Bootstrap, JS</h4>
           </div>
           <!---------------------------------- Project - 2 TODO List------------------------ -->
           <div class="details-container color-container">
@@ -287,7 +288,7 @@
                 Live 
               </button>
             </div>
-            <h4 class="weather-app-tech-stack">Tech Stack: HTML,CSS, Bootstrap, JS</h4>
+            <h4 class="weather-app-tech-stack">Tech Stack: HTML, CSS, Bootstrap, JS</h4>
           </div>
           <!---------------------------------- Project - 3 Food Menu App------------------------ -->
           <div class="details-container color-container">
@@ -320,7 +321,7 @@
                 Live 
               </button>
             </div>
-            <h4 class="weather-app-tech-stack">Tech Stack: HTML,CSS, Bootstrap</h4>
+            <h4 class="weather-app-tech-stack">Tech Stack: HTML, CSS, Bootstrap</h4>
           </div>
           <!-- Project - 4 Music Streming Web-app -->
           <div class="details-container color-container">
@@ -353,7 +354,7 @@
                 Live 
               </button>
             </div>
-            <h4 class="weather-app-tech-stack">Tech Stack: HTML,CSS, Bootstrap</h4>
+            <h4 class="weather-app-tech-stack">Tech Stack: HTML, CSS, Bootstrap</h4>
           </div>
         </div>
       </div>
@@ -399,7 +400,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">koushik.koppolu00@gmail.com</a></p>
+          <p style="margin-bottom: 0%;"><a href="mailto:examplemail@gmail.com">koushik.koppolu00@gmail.com</a></p>
         </div>
       </div>
     </section>
@@ -416,7 +417,7 @@
           </ul>
         </div>
       </nav>
-      <p class="copy-right">Copyright &#169; 2024 Koushik Koppolu. All Rights Reserved.</p>
+      <p class="copy-right">Copyright &#169; 2024 <b style="color:#302828;font-style:normal;">Koushik Koppolu </b><br/> All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>
